@@ -13,7 +13,7 @@ def send_slack_message(webhook_url, message: str) -> None:
     if response.status_code != 200:
         raise ValueError(f'Request to Slack returned an error {response.status_code}, the response is:\n{response.text}')
 
-webhook_url = 'https://hooks.slack.com/services/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'
+webhook_url = 'https://hooks.slack.com/services/XXXXXXXXXXXX/OOOOOOOO/QQQQQQQQQQQQQQQ'
 message = 'Xin chào! Đây là một tin nhắn từ Python bot của bạn.'
 
 send_slack_message(webhook_url, message)
