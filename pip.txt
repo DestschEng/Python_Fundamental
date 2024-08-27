@@ -1,2 +1,8 @@
 pip install jupyter
     --> jupyter notebook
+pip install "polars[all]"
+pip install 'polars[numpy,fsspec]'
+pip install docx
+pip install lxml
+pip install fastapi uvicorn
+pip install tqdm
